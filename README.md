@@ -1,10 +1,8 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](https://bit.ly/cc-by-nc-sa-40)
 
-# Template repository
-
-This is a template repository for programming laboratory works in BSUIR.
-
 # Usage
+
+To clone repository correctly use `--recursive` flag with `git`.
 
 To compile and run a program use:
 ```
@@ -13,11 +11,31 @@ $ ./build.sh gcc src/<filename>
 
 Executable will be started automatically. It can be found in `build/scr/` folder.
 
-# Semester \<#\> lab \<#\>
+# Semester \<1\> lab \<4\>
 
-## Task \<#\>
+## Task \<1\>
 
-Task description.
+Fill the array with natural numbers from the keyboard. Remove all numbers that are not prime.
+
+Original (ru):
+
+Заполнить с клавиатуры массив натуральными числами. Удалить все числа, не являющиеся простыми.
+
+## Task \<2\>
+
+Find a saddle point in a two-dimensional array: element, minimum in a column and maximum in a row.
+
+Original (ru):
+
+Найти в двумерном массиве седловую точку: элемент, минимальный в столбце и максимальный в строке.
+
+## Task \<3\>
+
+You are given a two-dimensional array of non-zero integers. Determine the longest possible sequence of positive numbers. The array is viewed line by line from top to bottom, and in each line - from left to right. Also take into account the preservation of the sign when moving to a new line.
+
+Original (ru):
+
+Дан двумерный массив ненулевых целых чисел. Определить максимально длинную последовательность положительных чисел. Массив просматривается построчно сверху вниз, а в каждой строке - слева направо. Сохранение знака при переходе на новую строку также учитывать.
 
 # Credits
 
